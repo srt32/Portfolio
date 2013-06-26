@@ -1,4 +1,6 @@
 Portfolio::Application.routes.draw do
+  root :to => "pages#projects"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
